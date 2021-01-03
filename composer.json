@@ -1,0 +1,30 @@
+{
+    "name": "maherelgamil/nova-radio-field",
+    "description": "A Laravel Nova field for display radio input",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "^2.0|^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maherelgamil\\NovaRadioField\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maherelgamil\\NovaRadioField\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
